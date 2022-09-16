@@ -34,8 +34,8 @@ const SessionInformation = (props: SessionInformationProps): JSX.Element => {
       <div>No speakers</div>
     );
 
-  const news = 
-    props.fields?.News && props.fields.News.value != "" ? (
+  const news =
+    props.fields?.News && props.fields.News.value != '' ? (
       <SessionNews News={props.fields?.News} />
     ) : (
       ""
@@ -65,9 +65,6 @@ const SessionInformation = (props: SessionInformationProps): JSX.Element => {
           </div>
         </div>
       </section>
-
-      
-
     </>
   );
 };
