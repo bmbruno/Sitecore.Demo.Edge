@@ -28,7 +28,7 @@ Languages:
         <p>The Internet is still the wild west when it comes to finding nutrition information that is credible and stands up to serious scientific scrutiny. That&rsquo;s why it&rsquo;s so hard to find reliable information&mdash;how can you be sure that what you are reading is accurate&nbsp;<em>and</em>&nbsp;unbiased?</p>
         
         <p>Join a leading online expert who embraces the latest scientific evidence to craft personalized nutrition advice for people just like you.</p>
-               
+        
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210921T182429Z
@@ -64,14 +64,17 @@ Languages:
       Value: "{421831DC-EE86-4E05-B974-8C0AE7A21D0E}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ad2ab3d-17a6-48bd-a48d-6c5ddd36bc41"
+      Value: "da210cb3-b39b-455a-b82d-2e2007de4849"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        default\Anonymous
+        sitecore\superuser
+    - ID: "ce9c8f54-3461-4399-b977-1a2d0fc1444d"
+      Hint: News
+      Value: "News item alpha!!!"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220114T224927Z
+      Value: 20220914T193412Z
     - ID: "ed69eacf-5eb2-5050-9d5b-997812318dde"
       Hint: pageTitle
       Value: "Ask an expert: nutrition"
