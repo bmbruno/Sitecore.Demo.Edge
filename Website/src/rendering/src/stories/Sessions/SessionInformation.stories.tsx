@@ -184,5 +184,6 @@ Default.args = {
     Premium: {
       value: true,
     },
+    News: { value: "test test test 64" }
   },
 };

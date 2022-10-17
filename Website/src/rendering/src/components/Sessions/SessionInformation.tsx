@@ -7,6 +7,7 @@ import { Day } from 'src/types/day';
 import { Room } from 'src/types/room';
 import SpeakerList from '../Speakers/SpeakerList';
 import SessionInformationPageHero from './SessionInformationPageHero';
+import SessionNews from './SessionNews';
 
 export type SessionInformationProps = ComponentProps & {
   fields: {
@@ -19,6 +20,7 @@ export type SessionInformationProps = ComponentProps & {
     Day: Day[];
     Timeslots: Timeslot[];
     Premium: Field<boolean>;
+    News: Field<string>;
   };
 };
 
@@ -30,6 +32,13 @@ const SessionInformation = (props: SessionInformationProps): JSX.Element => {
       <SpeakerList speakers={props.fields.Speakers} />
     ) : (
       <div>No speakers</div>
+    );
+
+  const news =
+    props.fields?.News && props.fields.News.value != '' ? (
+      <SessionNews News={props.fields?.News} />
+    ) : (
+      ""
     );
 
   return (
@@ -50,6 +59,7 @@ const SessionInformation = (props: SessionInformationProps): JSX.Element => {
             <div className="main-col">
               <div className="column-title">Description:</div>
               <RichText className="rich-text" field={props.fields?.Description} />
+              {news}
             </div>
             <div className="sidebar-col">{speakers}</div>
           </div>
